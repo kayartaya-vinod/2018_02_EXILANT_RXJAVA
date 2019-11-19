@@ -11,11 +11,11 @@ public class Person {
 	public static List<Person> getSampleData() {
 		return Arrays.asList(
 			new Person("vinod", 25, Gender.MALE),
-			new Person("ramesh", 37, Gender.MALE),
-			new Person("harish", 55, Gender.MALE),
 			new Person("Anu", 43, Gender.FEMALE),
 			new Person("Khushi", 15, Gender.FEMALE),
 			new Person("Karishma", 8, Gender.FEMALE),
+			new Person("ramesh", 37, Gender.MALE),
+			new Person("harish", 55, Gender.MALE),
 			new Person("suresh", 28, Gender.MALE),
 			new Person("john", 82, Gender.MALE),
 			new Person("jane", 58, Gender.FEMALE)
